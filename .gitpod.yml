@@ -8,6 +8,8 @@ ports:
 tasks:
   - init: npm install
     command: npm run start
+    env:
+         DB_URL: "mongodb+srv://mdmohammad976797:cTF5QZgFlA8iqqh1@cluster0.mh4pf5q.mongodb.net/"
 
 vscode:
   extensions:
